@@ -8,10 +8,10 @@ async function createAdmin() {
   try {
     await mongoose.connect(process.env.MONGO_URI);
 
-    const hashedPassword = await bcrypt.hash("admin123", 10);
+    const hashedPassword = await bcrypt.hash("Kapuu3139", 10);
 
     const admin = await Admin.create({
-      email: "admin@example.com",
+      email: "KapilNakum3139",
       password: hashedPassword
     });
 

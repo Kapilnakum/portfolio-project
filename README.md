@@ -108,7 +108,7 @@ portfolio-project/
 
 1. **Portfolio Landing Page**: Visit `http://localhost:3000` to view the portfolio
 2. **Submit Enquiry**: Click "Hire Me" or go to `/contact` to submit project enquiries
-3. **Admin Access**: Go to `/admin-login` and use email: `admin@example.com`, password: `admin123`
+3. **Admin Access**: Go to `/admin-login` and use email: `KapilNakum3139`, password: `Kapuu3139`
 4. **Manage Enquiries**: View, edit, and delete enquiries in the dashboard at `/enquiries`
 
 ## API Endpoints
