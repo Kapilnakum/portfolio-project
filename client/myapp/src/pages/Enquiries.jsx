@@ -20,7 +20,7 @@ function Enquiries() {
         return;
       }
 
-      const res = await axios.get("https://portfolio-project-server-txys.onrender.com", {
+      const res = await axios.get("http://localhost:5000/api/admin/login", {
         headers: { Authorization: `Bearer ${token}` },
       });
 
