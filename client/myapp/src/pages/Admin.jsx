@@ -18,7 +18,7 @@ export default function Admin() {
 
   const fetchEnquiries = async () => {
     try {
-      const res = await axios.get("https://portfolio-project-server-txys.onrender.com", {
+      const res = await axios.get("https://portfolio-project-fzge.onrender.com", {
         headers: { Authorization: `Bearer ${token}` },
       });
       setEnquiries(res.data);
