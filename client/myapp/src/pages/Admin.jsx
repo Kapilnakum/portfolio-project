@@ -18,7 +18,7 @@ export default function Admin() {
 
   const fetchEnquiries = async () => {
     try {
-      const res = await axios.get("http://localhost:5000/api/enquiries", {
+      const res = await axios.get("https://portfolio-project-server-txys.onrender.com", {
         headers: { Authorization: `Bearer ${token}` },
       });
       setEnquiries(res.data);
@@ -29,7 +29,7 @@ export default function Admin() {
   };
 
   const deleteEnquiry = async (id) => {
-    await axios.delete(`http://localhost:5000/api/enquiries/${id}`, {
+    await axios.delete(`https://portfolio-project-server-txys.onrender.com/${id}`, {
       headers: { Authorization: `Bearer ${token}` },
     });
     fetchEnquiries();
