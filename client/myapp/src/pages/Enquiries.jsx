@@ -20,7 +20,7 @@ function Enquiries() {
         return;
       }
 
-      const res = await axios.get("http://localhost:5000/api/admin/login", {
+      const res = await axios.get("https://portfolio-project-server-txys.onrender.com", {
         headers: { Authorization: `Bearer ${token}` },
       });
 
@@ -52,7 +52,7 @@ function Enquiries() {
     try {
       const token = localStorage.getItem("adminToken");
       await axios.put(
-        `http://localhost:5000/api/enquiries/${selectedEnquiry._id}`,
+        `https://portfolio-project-server-txys.onrender.com${selectedEnquiry._id}`,
         editForm,
         { headers: { Authorization: `Bearer ${token}` } }
       );
@@ -70,7 +70,7 @@ function Enquiries() {
 
     try {
       const token = localStorage.getItem("adminToken");
-      await axios.delete(`http://localhost:5000/api/enquiries/${id}`, {
+      await axios.delete(`https://portfolio-project-server-txys.onrender.com/${id}`, {
         headers: { Authorization: `Bearer ${token}` },
       });
       toast.success("Enquiry deleted");
