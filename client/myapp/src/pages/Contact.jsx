@@ -38,7 +38,7 @@ function Contact() {
     setLoading(true);
 
     try {
-      await axios.post("http://localhost:5000/api/enquiries", form);
+      await axios.post("https://portfolio-project-server-txys.onrender.com", form);
       toast.success("Enquiry submitted successfully!");
       setForm({
         clientName: "",
