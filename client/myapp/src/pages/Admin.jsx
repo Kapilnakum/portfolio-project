@@ -29,7 +29,7 @@ export default function Admin() {
   };
 
   const deleteEnquiry = async (id) => {
-    await axios.delete(`https://portfolio-project-server-txys.onrender.com/${id}`, {
+    await axios.delete(`https://portfolio-project-fzge.onrender.com/api/enquiries/${id}`, {
       headers: { Authorization: `Bearer ${token}` },
     });
     fetchEnquiries();
