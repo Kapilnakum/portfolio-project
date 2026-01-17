@@ -9,10 +9,6 @@ function Home() {
           Hi, I'm Kapil Nakum
         </h1>
 
-        <h3 className="text-xl md:text-2xl text-gray-600 mb-2">
-          MERN Stack Developer
-        </h3>
-
         {/* EXTRA ROLES */}
         <p className="text-sm md:text-base text-indigo-600 mb-6">
           Full-Stack Developer · Software Developer · Java Developer
