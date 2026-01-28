@@ -19,7 +19,7 @@ function Home() {
           Final Semester student of Computer Engineering from{" "}
           <span className="font-semibold">
             L. D. College of Engineering, Ahmedabad
-          </span>.Computer Engineering undergraduate specializing in Full-Stack Development and DevOps, 
+          </span>.specializing in Full-Stack Development and DevOps, 
                   with hands-on experience building and deploying scalable web applications. Strong 
                   proficiency in Node.js, Express.js, MongoDB, RESTful APIs, JavaScript and 
                   React, with experience implementing JWT-based authentication, role-based access control,
