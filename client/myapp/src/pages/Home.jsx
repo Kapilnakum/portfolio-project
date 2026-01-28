@@ -19,10 +19,13 @@ function Home() {
           Final Semester student of Computer Engineering from{" "}
           <span className="font-semibold">
             L. D. College of Engineering, Ahmedabad
-          </span>. Fresher Software Developer with hands-on academic experience
-          in MERN stack (MongoDB, Express.js, React, Node.js). Strong foundation
-          in REST APIs, backend logic, and scalable application design.
-          Passionate about problem-solving and continuous learning.
+          </span>.Computer Engineering undergraduate specializing in Full-Stack Development and DevOps, 
+                  with hands-on experience building and deploying scalable web applications. Strong 
+                  proficiency in Node.js, Express.js, MongoDB, RESTful APIs, JavaScript and 
+                  React, with experience implementing JWT-based authentication, role-based access control,
+                  and real-time features using Socket.IO. Practical exposure to AWS cloud services (EC2, S3, IAM, RDS),
+                  Linux fundamentals, and CI/CD concepts, along with application deployment and version control using Git
+                  and GitHub. Passionate about backend optimization, cloud infrastructure, and delivering reliable, production-ready solutions.
         </p>
 
         {/* CONTACT + EDUCATION INFO */}
